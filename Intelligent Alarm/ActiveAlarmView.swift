@@ -212,12 +212,13 @@ struct ActiveAlarmView: View {
     }
     func startAlarmOnceAgain() {
         alarmPlayer.playAlarmSound(timeIntervalUntilNextAlarm: 1)
-        
-        
     }
     func snoozeAlarm(){
-        let new_alarm = Intelligent_Alarm.snoozeAlarm(originalAlarm : alarmObject ?? nil, alarmRightNow: false)
+
+        let new_alarm = snoozeAlarmFunc(originalAlarm : alarmObject ?? nil, alarmRightNow: false)
         alarmData.addAlarm(alarmObject: new_alarm ?? nil)
+
+      
     }
     
 }

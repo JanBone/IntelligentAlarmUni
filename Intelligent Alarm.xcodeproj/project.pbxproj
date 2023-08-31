@@ -23,7 +23,6 @@
 		1DDC71B028201E81007786BA /* AlarmOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC71AF28201E81007786BA /* AlarmOptionsView.swift */; };
 		1DDC71B2282020CC007786BA /* AlarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC71B1282020CC007786BA /* AlarmListView.swift */; };
 		44EEACBA283A562100DCF67F /* SnoozeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EEACB9283A562100DCF67F /* SnoozeView.swift */; };
-		44F0626A28415EC200044B9E /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0626928415EC200044B9E /* LabelView.swift */; };
 		44F0626E28427F2000044B9E /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0626D28427F2000044B9E /* MemoryGameView.swift */; };
 		851710E92A75A80E00CA192C /* serenity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851710E82A75A80E00CA192C /* serenity.mp3 */; };
 		851710EB2A75A81E00CA192C /* sunrise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851710EA2A75A81E00CA192C /* sunrise.mp3 */; };
@@ -106,7 +105,6 @@
 		1DDC71AF28201E81007786BA /* AlarmOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmOptionsView.swift; sourceTree = "<group>"; };
 		1DDC71B1282020CC007786BA /* AlarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListView.swift; sourceTree = "<group>"; };
 		44EEACB9283A562100DCF67F /* SnoozeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoozeView.swift; sourceTree = "<group>"; };
-		44F0626928415EC200044B9E /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		44F0626D28427F2000044B9E /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
 		851710E82A75A80E00CA192C /* serenity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = serenity.mp3; sourceTree = "<group>"; };
 		851710EA2A75A81E00CA192C /* sunrise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sunrise.mp3; sourceTree = "<group>"; };
@@ -208,7 +206,6 @@
 				1DBDCF6B280DCAAE000D3A91 /* RepeatView.swift */,
 				85F624DC2A3274340087B3D9 /* MemoryGameSettingsView.swift */,
 				85F624E02A33B8720087B3D9 /* GameView.swift */,
-				44F0626928415EC200044B9E /* LabelView.swift */,
 				1DBDCF3227E28040000D3A91 /* ContentView.swift */,
 				1DDC71AF28201E81007786BA /* AlarmOptionsView.swift */,
 				1DDC71AB28201E09007786BA /* AlarmBlockView.swift */,
@@ -448,7 +445,6 @@
 				1DDC71B028201E81007786BA /* AlarmOptionsView.swift in Sources */,
 				85591E1F2A48B80E0008E592 /* CountingStepsView.swift in Sources */,
 				1DBDCF6C280DCAAE000D3A91 /* RepeatView.swift in Sources */,
-				44F0626A28415EC200044B9E /* LabelView.swift in Sources */,
 				1DBDCF5F27EA63D1000D3A91 /* alarm_sheet_functions.swift in Sources */,
 				85F624E12A33B8720087B3D9 /* GameView.swift in Sources */,
 				859CE24D2A4DA7F600F6760A /* AppDelegate.swift in Sources */,

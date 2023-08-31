@@ -33,6 +33,7 @@ final class AlarmData: ObservableObject{
     }
     func addAlarm(alarmObject: AlarmObject?){
         if alarmObject != nil{
+        
             alarmsList.append(alarmObject!)
             sortAlarmList()
             findClosestAlarm()
@@ -81,7 +82,9 @@ final class AlarmData: ObservableObject{
         else{
             closestActiveAlarm = activeAlarms.min(by: { $0.toDate().timeIntervalSince(now) < $1.toDate().timeIntervalSince(now)}) ?? nil
             if closestActiveAlarm != nil{
+              
                 timeInSeconds = timeUntilNextAlarm(nextAlarmTime: closestActiveAlarm!.toDate())
+        
             }
             else{
                 timeInSeconds = 0

@@ -124,24 +124,21 @@ func snoozeAlarmNotification(snoozeTime  :  Int, snoozeDate : Date,  hour : Int,
         return notificationObject
 }
 
-func snoozeAlarm(originalAlarm : AlarmObject?, alarmRightNow : Bool) -> AlarmObject?{
+func snoozeAlarmFunc(originalAlarm : AlarmObject?, alarmRightNow : Bool) -> AlarmObject?{
     var snoozeTime = originalAlarm?.snooze
     let futureDate = Date()
+    let currentDate = Date()
+    var dateComponents = DateComponents()
     if !alarmRightNow{
-        let currentDate = Date()
-        var dateComponents = DateComponents()
+        
         dateComponents.minute = snoozeTime
-        guard let futureDate = Calendar.current.date(byAdding: dateComponents, to: currentDate) else {
-            fatalError("Error adding  minutes to the current date.")
-        }
     }
     else{
-        let currentDate = Date()
-        var dateComponents = DateComponents()
-        guard let futureDate = Calendar.current.date(byAdding: dateComponents, to: currentDate) else {
-            fatalError("Error adding  seconds to the current date.")
-        }
+        dateComponents.second = 5
     }
+    
+    guard let futureDate = Calendar.current.date(byAdding: dateComponents, to: currentDate) else {
+        fatalError("Error adding  minutes to the current date.")}
     let calendar = Calendar.current
     let hour = calendar.component(.hour, from: futureDate)
     let minute = calendar.component(.minute, from: futureDate)

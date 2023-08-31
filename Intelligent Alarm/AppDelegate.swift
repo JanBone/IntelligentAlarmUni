@@ -74,6 +74,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
     func observerNextAlarm(publisher: AlarmData?) {
         publisher?.$nextAlarmToRing
             .sink { newValue in
+               
                 self.nextAlarmValueChanged(newValue ?? nil)
             }
             .store(in: &cancellables)
