@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E674B70C-615E-41F1-A50C-E1315D809C06"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8F98795-D42D-46B5-AA7A-42DAA1685F3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Intelligent Alarm/MemoryGameView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AE5D639-9A9F-48E2-AD9D-7235FC967C29"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Intelligent Alarm/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "4AE5D639-9A9F-48E2-AD9D-7235FC967C29 - da4084e7ca605fde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Intelligent_Alarm.ContentView.init() -&gt; Intelligent_Alarm.ContentView"
+                  moduleName = "Intelligent Alarm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katsiarynayalovik/Documents/Intelligent-Alarm/Intelligent%20Alarm/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "4AE5D639-9A9F-48E2-AD9D-7235FC967C29 - fdf2cb27c024cd62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Intelligent_Alarm.ContentView.init(alarmData: SwiftUI.EnvironmentObject&lt;Intelligent_Alarm.AlarmData&gt;, showAlarmOptions: Swift.Bool) -&gt; Intelligent_Alarm.ContentView"
+                  moduleName = "Intelligent Alarm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katsiarynayalovik/Documents/Intelligent-Alarm/Intelligent%20Alarm/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "4AE5D639-9A9F-48E2-AD9D-7235FC967C29 - a5cb3f0837a0aa34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Intelligent_Alarm.ContentView.init() -&gt; Intelligent_Alarm.ContentView"
+                  moduleName = "Intelligent Alarm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katsiarynayalovik/Documents/Intelligent-Alarm-updated/Intelligent%20Alarm/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "4AE5D639-9A9F-48E2-AD9D-7235FC967C29 - 827970c83de43e67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Intelligent_Alarm.ContentView.init(alarmData: SwiftUI.EnvironmentObject&lt;Intelligent_Alarm.AlarmData&gt;, showAlarmOptions: Swift.Bool) -&gt; Intelligent_Alarm.ContentView"
+                  moduleName = "Intelligent Alarm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katsiarynayalovik/Documents/Intelligent-Alarm-updated/Intelligent%20Alarm/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "4AE5D639-9A9F-48E2-AD9D-7235FC967C29 - a5cb3f0837a0aa34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Intelligent_Alarm.ContentView.init() -&gt; Intelligent_Alarm.ContentView"
+                  moduleName = "Intelligent Alarm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katsiarynayalovik/Documents/Intelligent-Alarm-updated/Intelligent%20Alarm/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "4AE5D639-9A9F-48E2-AD9D-7235FC967C29 - db2364bff05a0123"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Intelligent_Alarm.ContentView.init(alarmData: SwiftUI.EnvironmentObject&lt;Intelligent_Alarm.AlarmData&gt;, showAlarmOptions: Swift.Bool, alarmPlayer: SwiftUI.EnvironmentObject&lt;Intelligent_Alarm.AlarmPlayer&gt;) -&gt; Intelligent_Alarm.ContentView"
+                  moduleName = "Intelligent Alarm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katsiarynayalovik/Documents/Intelligent-Alarm-updated/Intelligent%20Alarm/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "4AE5D639-9A9F-48E2-AD9D-7235FC967C29 - 6bdada387cef92f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Intelligent_Alarm.ContentView2.init() -&gt; Intelligent_Alarm.ContentView2"
+                  moduleName = "Intelligent Alarm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katsiarynayalovik/Documents/Intelligent-Alarm-updated/Intelligent%20Alarm/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "4AE5D639-9A9F-48E2-AD9D-7235FC967C29 - 2027db28c773a06e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Intelligent_Alarm.ContentView2.init(alarmData: SwiftUI.EnvironmentObject&lt;Intelligent_Alarm.AlarmData&gt;, showAlarmOptions: Swift.Bool, alarmPlayer: SwiftUI.EnvironmentObject&lt;Intelligent_Alarm.AlarmPlayer&gt;) -&gt; Intelligent_Alarm.ContentView2"
+                  moduleName = "Intelligent Alarm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/katsiarynayalovik/Documents/Intelligent-Alarm-updated/Intelligent%20Alarm/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0001E97E-35A1-4864-BBA4-0F051481C9D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Intelligent Alarm/CountingStepsSettingsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57A12FD5-8B96-492C-AC0D-5E9EB58DC579"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Intelligent Alarm/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
