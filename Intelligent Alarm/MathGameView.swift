@@ -22,7 +22,7 @@ struct RoundCountMathView: View {
                 Text(":")
                     .foregroundColor(.white)
                 Text("\(roundNumber)")
-                    .foregroundColor(.white) // or another color if you like
+                    .foregroundColor(.white)
             }
 
                 .font(Font.custom("Poppins-SemiBold", size: 25))
@@ -63,7 +63,6 @@ struct MathGameView: View {
                 RoundCountMathView(currentRound: $currentRound, roundNumber: $roundNumber)
                 VStack {
                     Spacer()
-                    
                     Text(currentExample.text)
                         .frame(width: UIScreen.main.bounds.width / 1.3)
                         .padding()

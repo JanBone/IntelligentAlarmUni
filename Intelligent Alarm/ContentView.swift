@@ -42,7 +42,6 @@ struct StartPageView: View {
                         showAlarmOptions = true
                     }
                     
-                    
                 },  label: {
                     Text("+")
                         .font(.title)
@@ -50,7 +49,6 @@ struct StartPageView: View {
                         .frame(width: 60, height: 60)
                         .background(Color.ui.pewter)
                         .cornerRadius(20).clipShape(Circle())
-                    
                 })
                 
             }.frame(minWidth: 0,

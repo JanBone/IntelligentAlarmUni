@@ -194,8 +194,6 @@ struct AlarmOptions: View {
     private func editAlarm(alarmID : String) {
         var alarm = self.alarmData.findAlarmByID(idToFind: alarmID)
         
-        
-        
         if alarm != nil {
             hourSelected = alarm?.hour ?? hourSelected
             minuteSelected = alarm?.minute ?? minuteSelected

@@ -108,8 +108,6 @@ class AlarmObject: Codable, Identifiable, Equatable, Hashable {
         hasher.combine(id)
     }
     
-    
-    
     func removeAllNotifications(){
         for notification in notificationObjects{
             UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [notification.id])
@@ -131,13 +129,10 @@ class AlarmObject: Codable, Identifiable, Equatable, Hashable {
     func toDate() -> Date {
         let calendar = Calendar.current
         let now = Date()
-        
         var components = calendar.dateComponents([.year, .month, .weekOfMonth], from: now)
-        
         components.weekday = findNextDay()
         components.hour = self.hour
         components.minute = self.minute
-        
         guard let date = calendar.date(from: components) else {
             return now
         }

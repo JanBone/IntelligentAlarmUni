@@ -136,6 +136,7 @@ final class MemoryGameModel: ObservableObject {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.isGameFinished = true
+        
         }
         
     }
@@ -352,7 +353,7 @@ struct MemoryGameView: View {
         .onChange(of: game.isGameFinished) { newValue in
             if game.isGameFinished{
                 showingMemoryGame = false
-                gameFinishedSuccesfully = true
+                gameFinishedSuccesfully = false
                 gameStage = 1
             }
         }
@@ -492,13 +493,10 @@ struct CountDownTimerView: View {
                             if game.getGamePhaseSecond(){
                                 
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                                    gameFinishedSuccesfully = false
+                                    gameFinishedSuccesfully = true
                                     closeView = false
                                 }
-                                
                             }
-                            
-                            
                         }
                     } else {
                         if game.getGamePhaseFirst() {

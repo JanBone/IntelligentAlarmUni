@@ -17,24 +17,17 @@ func setAlarm(repeat_alarm: Bool, repeatList: [ItemDay], hour: Int, minute: Int)
     center.requestAuthorization(options: [.alert, .sound, .badge, .provisional]) { (granted, error) in
         if granted {
             let content = createNotificationContent()
-
             if repeat_alarm {
                 notifications = scheduleRepeatAlarms(content: content, repeatList: repeatList, hour: minute, minute: hour, repeat_alarm: repeat_alarm)
             } else {
                 notifications = scheduleSingleAlarm(content: content, hour: hour, minute: minute, repeat_alarm: repeat_alarm)
             }
         }
-        
         semaphore.signal() 
     }
-
     _ = semaphore.wait(timeout: .distantFuture)
-
     return notifications
 }
-
-
-
 
 private func scheduleRepeatAlarms(content: UNMutableNotificationContent, repeatList : [ItemDay], hour :Int, minute: Int, repeat_alarm: Bool) -> [NotificationObject] {
     var notificationObjects : [NotificationObject] = []
@@ -56,9 +49,7 @@ func isToday2(hour : Int, minute : Int) -> Bool {
     let calendar = Calendar.current
     let now = Date()
     let components = calendar.dateComponents(in: TimeZone.current, from: now)
-    
     if let currentHour = components.hour, let currentMinute = components.minute {
-        
         if hour > currentHour || (hour == currentHour && minute > currentMinute) {
             return true
         } else {
@@ -114,14 +105,13 @@ func getPendingNotification() {
 
 func snoozeAlarmNotification(snoozeTime  :  Int, snoozeDate : Date,  hour : Int, minute : Int, dayOfTheWeek : Int) -> NotificationObject{
     let content = UNMutableNotificationContent()
-        content.title = "Snoozed Alarm"
+        content.title = "Snoozed alarm"
         content.body = "Turn off your alarm"
         content.sound = UNNotificationSound.default
         let triggerDate = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute], from: snoozeDate)
         let trigger = UNCalendarNotificationTrigger(dateMatching: triggerDate, repeats: false)
         let identifier = UUID().uuidString
         let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
-
         UNUserNotificationCenter.current().add(request) { error in
             if let error = error {
                 print("Error scheduling notification: \(error.localizedDescription)")
@@ -141,7 +131,6 @@ func snoozeAlarm(originalAlarm : AlarmObject?, alarmRightNow : Bool) -> AlarmObj
         let currentDate = Date()
         var dateComponents = DateComponents()
         dateComponents.minute = snoozeTime
-        
         guard let futureDate = Calendar.current.date(byAdding: dateComponents, to: currentDate) else {
             fatalError("Error adding  minutes to the current date.")
         }
@@ -188,7 +177,6 @@ func setFirstAlarmDay(hour : Int, minute : Int) -> Int{
         return dayOfTheWeek
     }
     else{
-        
         return (dayOfTheWeek == 7) ? 1 : (dayOfTheWeek + 1)
     }
 }

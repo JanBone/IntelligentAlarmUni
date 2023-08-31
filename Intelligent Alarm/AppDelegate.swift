@@ -39,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
     }
     
     func applicationWillResignActive(_ application: UIApplication) {
-        audioPlayerSilence?.pause()
+        audioPlayerSilence?.play()
     }
     
     
